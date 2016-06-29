@@ -17,11 +17,23 @@ As a user, I want to have a live weather broadcast with a related theme .
 
 As a user, I can delete my account and all the personal informations it contains.
 
-#### Wire frame :
+#### Wire Frame :
 
 ![](url)
 
+#### Installation Instructions :
+
+#### Technologies Used :
+
+#### Approach taken :
+
+#### Unsolved Issues :
+
+#### Notes :
+
 #### Credits :
+
+Special thanks to
 
 - [name](url)
 
