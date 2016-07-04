@@ -1,0 +1,16 @@
+html {
+  background-color: #FFF;
+}
+
+nav {
+  display: -webkit-inline-box;
+}
+
+body {
+  background-color: #CCC;
+  margin-top: 20px;
+}
+
+form {
+  margin-left: 5px;
+}
