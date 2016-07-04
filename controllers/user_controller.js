@@ -2,12 +2,12 @@ const router    = require('express').Router();
 const { createUser, loginUser } = require('../models/user');
 
 router.get('/new', function(req,res) {
-  res.render('user/new')
+  res.render('user/new');
 });
 
 router.post('/new', createUser, function(req,res) {
   console.log(req.body);
-  res.redirect('/');
+  res.redirect('/userpage');
 });
 
 router.get('/login', function(req,res) {
@@ -20,7 +20,7 @@ router.post('/login', loginUser, function(req,res) {
 
   req.session.save(function(err) {
     // if(err) throw err;
-    res.redirect('/');
+    res.redirect('/userpage');
   });
 });
 
