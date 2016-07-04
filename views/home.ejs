@@ -4,7 +4,13 @@
   <body class="container">
     <% include ./partials/header %>
     <h1>Meather</h1>
-    <h5>The mood weather, a personalised mood enhancer !</h5>
+    <p>The mood weather a personalised mood enhancer</p>
+    <% if(user) { %>
+    <% include ./partials/userpage %>
+    <% } else { %>
+    <h4>Good morning amazing guest !</h4>
+    <p>Log in or sign up to improve your morning mood</p>
+    <% } %>
 
     <% include ./partials/footer %>
   </body>

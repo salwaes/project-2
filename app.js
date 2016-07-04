@@ -8,7 +8,6 @@ const session               = require('express-session');
 const methodOverride        = require('method-override')
 const homeController        = require('./controllers/home_controller');
 const userController        = require('./controllers/user_controller');
-const userPageController    = require('./controllers/userpage_controller');
 
 const app                   = express();
 const port                  = process.env.PORT || process.argv[2] || 3000;
@@ -32,7 +31,6 @@ app.use('/bower_components', express.static(path.join(__dirname,'/bower_componen
 
 app.use('/', homeController);
 app.use('/user', userController);
-app.use('/userpage', userPageController);
 
 app.listen(port, function(){
   console.log("server up and running on port ", port)
