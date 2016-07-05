@@ -2,6 +2,11 @@
 
 ## Meather
 
+<<<<<<< HEAD
+=======
+![](https://media.giphy.com/media/dJvcoudE1XKs8/giphy.gif)
+
+>>>>>>> version1
 ##### The Mood Weather is a morning mood enhancer platform, styled depending on the user's city's weather. The website is a life changing sensorial experience that aims to improve your day by changing the most important part of your existence and it does all that only by lifting your spirits.
 
 #### User Story :
@@ -19,7 +24,11 @@ As a user, I can delete my account and all the personal informations it contains
 
 #### Wire Frame :
 
+<<<<<<< HEAD
 ![](url)
+=======
+![](./media/Meather Diagram(1).png)
+>>>>>>> version1
 
 #### Installation Instructions :
 
@@ -39,4 +48,8 @@ Special thanks to
 
 - [name](url)
 
+<<<<<<< HEAD
 - [name](url) 
+=======
+- [name](url)
+>>>>>>> version1

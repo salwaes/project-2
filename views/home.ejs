@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <% include ./partials/head %>
+  <body class="container">
+    <% include ./partials/header %>
+    <h1>Meather</h1>
+    <p>The mood weather a personalised mood enhancer</p>
+    <% if(user) { %>
+    <% include ./partials/userpage %>
+    <% } else { %>
+    <h4>Good morning amazing guest !</h4>
+    <p>Log in or sign up to improve your morning mood</p>
+    <img src="https://media.giphy.com/media/lyVNcb1n5Ob0Q/giphy.gif" alt=""><br>
+    <% } %>
+    <% include ./partials/footer %>
+  </body>
+</html>
