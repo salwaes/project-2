@@ -2,6 +2,8 @@
 
 ## Meather
 
+![](https://media.giphy.com/media/dJvcoudE1XKs8/giphy.gif)
+
 ##### The Mood Weather is a morning mood enhancer platform, styled depending on the user's city's weather. The website is a life changing sensorial experience that aims to improve your day by changing the most important part of your existence and it does all that only by lifting your spirits.
 
 #### User Story :
