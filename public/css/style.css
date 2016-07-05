@@ -1,5 +1,5 @@
 html {
-  background-color: #FFF;
+  background-color: #00BFFF;
 }
 
 nav {
@@ -7,10 +7,15 @@ nav {
 }
 
 body {
-  background-color: #CCC;
-  margin-top: 20px;
+  background-color: #FFF;
+  margin-top: 50px;
 }
 
 form {
   margin-left: 5px;
+}
+
+.stateicon {
+  width: 32px;
+  height: 32px;
 }
